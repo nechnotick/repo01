@@ -38,14 +38,12 @@ if menu == "Researcher Profile":
     st.sidebar.header("Profile Options")
 
     # Collect basic information
-    name = "Dr. Jane Doe"
+    name = "Neo Namane"
     field = "Astrophysics"
-    institution = "University of Science"
 
     # Display basic profile information
     st.write(f"**Name:** {name}")
     st.write(f"**Field of Research:** {field}")
-    st.write(f"**Institution:** {institution}")
 
 elif menu == "Publications":
     st.title("Publications")
